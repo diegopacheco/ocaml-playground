@@ -1,4 +1,9 @@
 (executable
  (public_name project)
  (name main)
- (libraries project))
+ (libraries base 
+            core 
+            async 
+            http_async 
+            core_unix.command_unix 
+            project))

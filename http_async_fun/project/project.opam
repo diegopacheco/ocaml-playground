@@ -12,8 +12,6 @@ bug-reports: "https://github.com/diegopacheco/ocaml-playground/issues"
 depends: [
   "ocaml"
   "dune" {>= "3.7"}
-  "base"
-  "http_async"
   "odoc" {with-doc}
 ]
 build: [

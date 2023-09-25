@@ -19,7 +19,7 @@
  (name project)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml dune base http_async)
+ (depends ocaml dune)
  (tags
   (topics "to describe" your project)))
 
