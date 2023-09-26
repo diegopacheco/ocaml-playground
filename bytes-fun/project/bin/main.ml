@@ -1,0 +1,1 @@
+let () = print_endline (Bytes.to_string (Bytes.of_string "my string abc"))
